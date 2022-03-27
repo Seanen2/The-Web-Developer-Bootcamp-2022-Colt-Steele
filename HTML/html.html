@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Qué es HTML?</title>
+  </head>
+
+  <body>
+    <h1>¿Qué es HTML?</h1>
+    <p>
+      <b> HTML</b>, siglas en inglés de HyperText Markup Language (lenguaje de
+      marcado de hipertexto), hace referencia al lenguaje de marcado para la
+      elaboración de páginas web.
+    </p>
+    <p>
+      Es un estándar que sirve de referencia del software que conecta con la
+      elaboración de páginas web en sus diferentes versiones, define una
+      estructura básica y un código (denominado código HTML) para la definición
+      de contenido de una página web, como texto, imágenes, videos, juegos,
+      entre otros.
+    </p>
+
+    <h2>Primeras especificaciones de HTML</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quod,
+      perferendis molestiae similique neque autem esse consequuntur expedita
+      earum voluptas quisquam explicabo perspiciatis. Ullam ipsam atque enim hic
+      officia ducimus.
+    </p>
+
+    <h2>Marcador HTML</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quibusdam
+      quaerat quod quasi porro? Soluta consequuntur similique ea quo illum sed
+      ducimus, alias assumenda, veniam nulla quia debitis repellendus
+      voluptatum.
+    </p>
+
+    <h2>LISTAS</h2>
+    <ul>
+      <li>
+        Etiquetas más comunes
+        <ul>
+          <li>hola</li>
+          <li>como estas</li>
+          <li>comida</li>
+        </ul>
+      </li>
+
+      <li>Etiquetas más comunes</li>
+      <li>Etiquetas más comunes</li>
+      <li>Etiquetas más comunes</li>
+    </ul>
+
+    <h2>ENLACES</h2>
+    <a href="http://www.google.com">LINK A GOOGLE</a>
+
+    <h2>IMAGEN</h2>
+    <img
+      src="/Users/josepulido/Pictures/fomdo.jpg"
+      width="400 px"
+      alt="Wagoneer"
+    />
+    <!--ESTO ES UN COMENTARIO-->
+    <hr />
+    <h2>FORMULARIOS 5.17 MARATHON</h2>
+    <h3>Race Registration!</h3>
+    <form>
+      <p>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" required />
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" required />
+      </p>
+
+      <p>
+        Select a Race:
+        <br />
+        <br />
+
+        <label for="Fun">Fun Run 5k</label>
+        <input type="radio" name="selectrace" id="Fun" value="Fun" /><br />
+
+        <label for="Half">Half Marathon</label>
+        <input type="radio" name="selectrace" id="Half" value="Half" /><br />
+
+        <label for="Full">Full Marathon</label>
+        <input type="radio" name="selectrace" id="Full" value="Full" /><br />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          minlength="8"
+          required
+        />
+        <br />
+
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age" required>
+          <option value="kids">under 18</option>
+          <option value="adults">18-60</option>
+          <option value="seniors">+60</option>
+        </select>
+        <br />
+
+        <button>Register!</button>
+      </p>
+    </form>
+  </body>
+</html>
